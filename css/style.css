@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* STRUCTURE */
+.row-header{
+    height: 62px;
+}
+.content img{
+    width: 60px;
+}
+
+.content{
+    width: 100%;
+}
+.content-grid{
+    height: calc(100vh - 62px)
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    
+}
+
+.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* UTILITY */
+
+.bg-blue{
+    background-color: aqua;
+}
+
+.click{
+    background-color: rgb(1, 160, 160);
+}
